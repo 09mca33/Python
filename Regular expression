@@ -10,4 +10,21 @@ if n.match(phone_number):
 else:
   print("invalid")
   
+  
+  
+### validate the email address
+
+
+import re
+
+email='g.singh.bora@gmail.com'
+
+n = re.compile(r'^[a-zA-Z][\w\-\.]*@[a-zA-Z]+\.[a-zA-Z]{1,3}$')
+
+if n.match(email):
+  print("valid")
+else:
+  print("invalid")
+  
+  
 
