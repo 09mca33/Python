@@ -1,0 +1,13 @@
+## validate the phone number
+
+import re
+
+phone_number = '23456645345'
+n=re.compile(r'^[7-9]\d{9}$')
+
+if n.match(phone_number):
+  print("valid")
+else:
+  print("invalid")
+  
+
