@@ -1,7 +1,5 @@
 #----------------------------------------------------merge Sort-----------------------------
-
-
-#this is for the merge sort git test.
+# this is test with GIT with SUBHU and Vijay
 
 def merge_sort(array):
 
