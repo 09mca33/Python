@@ -1,4 +1,8 @@
 #----------------------------------------------------merge Sort-----------------------------
+
+
+#this is for the merge sort git test.
+
 def merge_sort(array):
 
     if len(array) <= 1:
